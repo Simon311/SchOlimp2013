@@ -34,7 +34,7 @@ namespace O3
 			// Собственно вся магия, записываем последнюю часть как перевернутую первую :)
 			S.L = new String(S.F.ToString().Reverse().ToArray()); 
 
-			return S.Number(); // Возвращаем строковое представления числа
+			return S.Number(); // Возвращаем строковое представление числа
 		}
 
 		struct Split 
